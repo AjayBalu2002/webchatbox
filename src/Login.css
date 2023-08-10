@@ -1,0 +1,43 @@
+.LoginCard
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+font-size: larger;
+width: 300px;
+gap: 20px;
+position: absolute;
+top: 200px;
+margin-left: 600px;
+box-shadow: 0px 0px 10px 0px;
+height: 350px;
+color: rgb(0, 0, 0);
+background-color: white;
+}
+
+.loginLabels
+{
+margin-left: -125px;
+
+}
+
+
+.loginLabelss
+{
+margin-left: -155px;
+
+}
+
+
+.TotalLogin{
+    
+    object-fit: cover;
+    
+    background-repeat: no-repeat;
+    height: 713px;
+    
+    background-size: cover;
+    background-color: antiquewhite;
+}

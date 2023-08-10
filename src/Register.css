@@ -1,0 +1,58 @@
+.RegisterCard
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+align-items: center;
+font-size: larger;
+width: 300px;
+gap: 20px;
+position: absolute;
+top: 200px;
+margin-left: 600px;
+box-shadow: 0px 0px 10px 0px;
+height: 350px;
+color: black;
+background-color: white;
+
+}
+
+.RegisterLabels
+{
+
+position: relative;
+
+left: -80px;
+}
+
+
+.RegisterLabelsss
+{
+
+position: relative;
+
+left: -60px;
+}
+
+
+
+.RegisterLabelss
+{
+
+position: relative;
+
+left: -80px;
+}
+
+
+.TotalRegister{
+    
+    object-fit: cover;
+    
+    background-repeat: no-repeat;
+    height: 713px;
+    
+    background-color: antiquewhite;
+    background-size: cover;
+}

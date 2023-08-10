@@ -1,0 +1,131 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  /* Box 1 */
+  .box1 {
+    width: 30px;
+    min-width: 10px;
+    background-color: rgb(55, 71, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+  }
+  
+  /* Box 2 */
+  .box2 {
+    flex: 0.5;
+    background-color: #eeeeee;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .totalnames {
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  .eachname {
+    height: 50px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .eachname:hover {
+    border-radius: 60px;
+  
+     box-shadow: 0rem 0.3rem 1rem 0px; 
+  }
+  
+  /* Box 3 */
+  .box3 {
+    flex: 3;
+    background-color: #bfcfd5;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .receivername {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    height: 50px;
+    width: 100%;
+    border-left: 20px solid red;
+    background-color: #ff0000;
+  }
+  
+  .totalcon {
+    max-height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sender,
+  .receiver {
+
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px 0;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .receiver {
+    background-color: rgb(255, 4, 4);
+    color: white;
+   
+    align-self: flex-end;
+    border-top-right-radius: 0px;
+  }
+  
+  .sender {
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 0, 0);
+    align-self: flex-start;
+    border-top-left-radius: 0px;
+  }
+  
+  .totalbox3input {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+   
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .box3input {
+    flex: 0.5; /* Adjust the value to control the width */
+    padding: 8px;
+    
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  
+  .box3incon {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Media Queries */
